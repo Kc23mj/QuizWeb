@@ -1,0 +1,1 @@
+window.currentMarks = 5;

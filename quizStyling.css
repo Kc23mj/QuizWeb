@@ -1,0 +1,93 @@
+.options ul{
+    list-style-type: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo Bhai 2", sans-serif;
+    
+
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF0F3;
+  
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgba(133, 116, 201, 0.898);
+    width: 28px;
+    padding: 13px;
+    margin-bottom: -31px;
+    margin-top: 21px;
+    border-radius: 36px;
+    z-index: 2;
+}
+
+.options ul li{
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, 0.15);
+    margin:23px;
+    padding: 23px;
+    width: 40vw;
+}
+.options ul li:hover{
+    border-radius: 20px;
+    background: #ABD1C6;
+   
+}
+/* .options ul li:checked{
+    border-radius: 20px;
+    background: #ABD1C6;
+   
+} */
+
+.question{
+    width:80vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+   
+    
+}
+.next{
+    padding:5px;
+    width:120px;
+    border-radius: 20px;
+    background: #004643;
+    
+}
+.next a{
+    color: white;
+    text-decoration: none;
+}
+
+.submit{
+    padding:5px;
+    width:120px;
+    border-radius: 20px;
+    background: #004643;
+    
+}
+.submit a{
+    color: white;
+    text-decoration: none;
+}
+
